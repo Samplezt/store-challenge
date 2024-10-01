@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="66.096" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-10-01T12:55:01" tests="0" file="cypress/e2e/market.searchs.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Market Search Scenarios" timestamp="2024-10-01T12:55:01" tests="2" time="66.089" failures="1">
+    <testcase name="Market Search Scenarios Search conditions are set correctly" time="32.145" classname="Search conditions are set correctly">
+      <failure message="Timed out retrying after 20000ms: expected &apos;&lt;span.merText.body__5616e150.inherit__5616e150&gt;&apos; to contain &apos;jf&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 20000ms: expected '<span.merText.body__5616e150.inherit__5616e150>' to contain 'jf'
+    at Context.eval (webpack://store-challenge/./cypress/e2e/market.searchs.cy.js:19:24)]]></failure>
+    </testcase>
+    <testcase name="Market Search Scenarios Search conditions are set correctly from the latest browsing history" time="5.083" classname="Search conditions are set correctly from the latest browsing history">
+    </testcase>
+  </testsuite>
+</testsuites>

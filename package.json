@@ -4,7 +4,10 @@
   "description": "store challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:ja": "cypress run --env lang=ja",
+    "test:en": "cypress run --env lang=en",
+    "test:ja:debug": "cypress open --env lang=ja",
+    "test:en:debug": "cypress open --env lang=en"
   },
   "author": "",
   "license": "ISC",
