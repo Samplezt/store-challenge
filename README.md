@@ -6,8 +6,6 @@ This project is built with **Cypress** and **JavaScript**. The tests are designe
 
 ### Prerequisites
 
-Make sure you have the following installed on your system:
-
 - **Node.js** (v12 or higher)
 - **npm** (v6 or higher)
 
